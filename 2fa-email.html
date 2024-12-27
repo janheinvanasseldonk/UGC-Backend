@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RC - 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <style>
+        p.h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body,
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .borderedText{
+            padding: 10px;
+            border: 2px solid #007bff;
+            margin-right: 5px;
+            border-radius: 5px;
+            font-size: 48px;
+            height: 65px;
+            width: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #007bff;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main style="
+        max-width: 640px;
+        margin: auto;
+        padding: 32px;
+        font-family: Inter, sans-serif;
+      ">
+        <!-- top icon -->
+        <div style="padding: 20px">
+            <img src="https://ugc-storage.s3.eu-north-1.amazonaws.com/img+(1).png" alt="Logo" style="display:block"
+                width="115" height="32" />
+
+        </div>
+
+        <!-- contents -->
+        <div style="padding: 20px">
+            <h4 style="
+            padding-bottom: 20px;
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            color: #101828;
+          ">
+                Inlogpoging verifiëren
+            </h4>
+
+            <br />
+            <p style="
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #344054;
+          ">
+                Beste {firstname},
+                Dit is je verificatiecode. Deze code is de komende 5 minuten geldig.
+            </p>
+            <br />
+            <p style="display: flex;">
+                <span class="borderedText">{pin1}</span>
+                <span class="borderedText">{pin2}</span>
+                <span class="borderedText">{pin3}</span>
+                <span class="borderedText">{pin4}</span>
+                <span class="borderedText">{pin5}</span>
+                <span class="borderedText">{pin6}</span>
+            </p>
+            <br />
+            <h4 style="
+            font-weight: 700;
+            font-size: 18px;
+            color: #344054;
+            padding-bottom: 10px;
+          ">
+                Werkt de code niet?
+            </h4>
+            <br />
+            <p style="
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #344054;
+          ">
+                Werkt de code niet? Klik op 'Opnieuw versturen' op de verificatiepagina om een nieuwe code te ontvangen.
+                Als het probleem aanhoudt, neem dan contact met ons op voor ondersteuning.
+            </p>
+            <br />
+
+            <p style="
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #344054;
+          ">
+                Met creatieve groet,
+            </p>
+            <br />
+            <p style="
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #344054;
+          ">
+                Het UGC.nl Team 💙
+            </p>
+            </p>
+
+            <!-- footer -->
+            <div style="padding: 20px; border-top: 1px solid #eaecf0">
+                <br />
+                <center style="
+            padding: 0;
+          ">
+                    <!-- ! change the link as needed -->
+
+                    <a target="_blank" href="https://ugc-v2.vercel.app/voorwaarden" style="
+                color: #475467;
+                margin: 0 5px;
+                font-size: 14px;
+                font-weight: 400;
+              ">Voorwaarden</a>
+                    <!-- ! change the link as needed -->
+
+                    <a target="_blank" href="https://ugc-v2.vercel.app/privacy-policy" style="
+                color: #475467;
+                margin: 0 5px;
+                font-size: 14px;
+                font-weight: 400;
+              ">Privacyverklaring</a>
+                    <!-- ! change the link as needed -->
+
+                    <a target="_blank" href="https://ugc-v2.vercel.app/contact" style="
+                color: #475467;
+                margin: 0 5px;
+                font-size: 14px;
+                font-weight: 400;
+              ">Contact</a>
+                </center>
+                <p style="
+            padding-top: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #475467;
+          ">
+                    © UGC.nl <br />
+                    Keizersgracht 520H, 1017 EK, Amsterdam
+                </p>
+            </div>
+    </main>
+</body>
+
+</html>

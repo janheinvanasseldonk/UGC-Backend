@@ -1,0 +1,16 @@
+module.exports.authService = require("./auth.service");
+module.exports.emailService = require("./email.service");
+module.exports.tokenService = require("./token.service");
+module.exports.userService = require("./user.service");
+module.exports.packageService = require("./package.service");
+module.exports.messageService = require("./message.service");
+module.exports.chatService = require("./chat.service");
+module.exports.orderService = require("./order.service");
+module.exports.paymentService = require("./payment.service");
+module.exports.uploadService = require("./upload.service");
+module.exports.reviewService = require("./review.service");
+module.exports.requestService = require("./request.service");
+module.exports.offerService = require("./offers.service");
+module.exports.invoiceService = require("./invoice.service");
+module.exports.notificationService = require("./notfiications.service")
+module.exports.onesignalService = require("./onesignal.service")
